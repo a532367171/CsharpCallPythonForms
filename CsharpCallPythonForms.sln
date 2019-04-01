@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpCallPythonForms", "CsharpCallPythonForms\CsharpCallPythonForms.csproj", "{D5DE9750-40AE-4A01-B6EC-BA74D570480A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication1", "PythonApplication1\PythonApplication1.pyproj", "{C026635F-07C0-4B49-99E3-3A476D685AB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5DE9750-40AE-4A01-B6EC-BA74D570480A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DE9750-40AE-4A01-B6EC-BA74D570480A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DE9750-40AE-4A01-B6EC-BA74D570480A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DE9750-40AE-4A01-B6EC-BA74D570480A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C026635F-07C0-4B49-99E3-3A476D685AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C026635F-07C0-4B49-99E3-3A476D685AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C136667-FB40-4112-9CAF-0D23F507E80F}
+	EndGlobalSection
+EndGlobal
