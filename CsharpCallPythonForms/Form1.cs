@@ -32,7 +32,7 @@ namespace CsharpCallPythonForms
             string path = System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase + sArgName;// 获得python文件的绝对路径（将文件放在c#的debug文件夹中可以这样操作）
             path = @"D:\VS2017\CS\CsharpCallPythonForms\PythonApplication1\" + sArgName;//(因为我没放debug下，所以直接写的绝对路径,替换掉上面的路径了)
             //p.StartInfo.FileName = @"D:\Python\envs\python3\python.exe";//没有配环境变量的话，可以像我这样写python.exe的绝对路径。如果配了，直接写"python.exe"即可
-            p.StartInfo.FileName = "python.exe";//没有配环境变量的话，可以像我这样写python.exe的绝对路径。如果配了，直接写"python.exe"即可
+            p.StartInfo.FileName = "D:\\Anaconda3\\envs\\tensorflow_python368\\python.exe";//没有配环境变量的话，可以像我这样写python.exe的绝对路径。如果配了，直接写"python.exe"即可
 
             string sArguments = path;
             foreach (string sigstr in teps)

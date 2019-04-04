@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>PythonApplication1</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
+    <InterpreterId>CondaEnv|CondaEnv|tensorflow_python368</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,9 +25,15 @@
     <Compile Include="main.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="multi.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|tensorflow_python368" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
